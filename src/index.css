@@ -7,7 +7,9 @@
   --color-background : #272727;
   --color-aboutme : #373A40;
   --color-dark : #030303;
+
 }
+
 
 *{
   scroll-behavior: smooth;

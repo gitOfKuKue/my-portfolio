@@ -31,7 +31,7 @@ const Hello = () => {
           alt="my picture"
           className="w-150"
         /> */}
-        <img src="https://github.com/gitOfKuKue/my-portfolio/blob/main/src/assets/images/my-pic.png" alt="MY PIC" className="w-150"/>
+        <img src="main/src/assets/images/my-pic.png" alt="MY PIC2" className="w-150"/>
       </Container>
     </section>
   );
