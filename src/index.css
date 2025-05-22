@@ -6,6 +6,11 @@
   --color-font-light : #DBDBDB95;
   --color-background : #272727;
   --color-aboutme : #373A40;
+  --color-dark : #030303;
+}
+
+*{
+  scroll-behavior: smooth;
 }
 
 .hello-section{
@@ -39,4 +44,12 @@
 
 .custom-shape-divider-top-1747829722 .shape-fill {
     fill: var(--color-background);
+}
+
+/* Services */
+.service-card:hover{
+  background-color: var(--color-iconic);
+}
+.service-card:hover .service-card-icon{
+  color: var(--color-font);
 }
