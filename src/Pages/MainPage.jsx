@@ -11,7 +11,9 @@ const MainPage = () => {
   return (
     <>
       <main>
-        <Navigation />
+        {/* Navigation Section */}
+        {/* <Navigation /> */}
+
         {/* Hello Section */}
         <Hello />
 
@@ -25,7 +27,7 @@ const MainPage = () => {
         <Portfolio />
 
         {/* Footer Section */}
-        <Footer />
+        {/* <Footer /> */}
       </main>
     </>
   );

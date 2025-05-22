@@ -8,7 +8,7 @@ import logo from "../assets/icons/logo.svg";
 const Footer = () => {
   const date = new Date();
   return (
-    <footer className="bg-iconic py-20 px-10 text-background">
+    <footer className="bg-iconic py-20 px-10 text-background mt-auto">
       <h1 className="text-xl font-bold">Thu Htet Naing @ Ku Kue.</h1>
       <div className="grid grid-cols-5 border-b-1 border-dashed py-20">
         <ul className="col-span-1 h-full flex flex-col justify-evenly items-start">

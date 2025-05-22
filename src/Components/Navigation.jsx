@@ -29,7 +29,7 @@ const Navigation = () => {
         </a>
       </div>
       <div className="flex justify-between items-center gap-4">
-        <button className="bg-iconic px-4 text-font cursor-pointer py-2">Curriculum Vitae</button>
+        <Link to={"/cv"} className="bg-iconic px-4 text-font cursor-pointer py-2">Curriculum Vitae</Link>
         <a href="tel:+84898247910" className="hover:bg-iconic hover:text-font border border-iconic text-iconic px-4 py-2 cursor-pointer">
           Let's Talk!
         </a>
