@@ -27,12 +27,11 @@ const Hello = () => {
         </div>
 
         {/* Picture Section */}
-        {/* <img
-          src="./src/assets/images/my-pic.png"
+        <img
+          src={myPic}
           alt="my picture"
           className="w-150"
-        /> */}
-        <img src={myPic} alt="MY PIC3" className="w-150"/>
+        />
       </Container>
     </section>
   );

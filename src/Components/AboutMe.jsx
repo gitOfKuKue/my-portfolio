@@ -1,5 +1,7 @@
 import React from "react";
 import Container from "./Container";
+import myPic2 from "../assets/images/my-pic2.png";
+
 
 const AboutMe = () => {
   return (
@@ -21,7 +23,7 @@ const AboutMe = () => {
       <Container className={"flex justify-between items-center py-30"}>
         {/* Picture Section */}
         <img
-          src="./src/assets/images/my-pic2.png"
+          src={myPic2}
           alt="my pic 2"
           className="w-120"
         />

@@ -2,6 +2,8 @@ import React from "react";
 import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebook, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
+import logo from "../assets/icons/logo.svg";
+
 
 const Footer = () => {
   const date = new Date();
@@ -53,7 +55,7 @@ const Footer = () => {
 
       <div className="flex justify-start items-center gap-3">
         <div className="bg-dark inline-block p-3 rounded-md">
-          <img src="./src/assets/icons/logo.svg" alt="logo" className="w-50" />
+          <img src={logo} alt="logo" className="w-50" />
         </div>
         <ul className="">
           <li>Graphic Designer</li>
