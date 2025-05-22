@@ -1,5 +1,6 @@
 import React from "react";
 import Container from "./Container";
+import myPic from "../assets/images/my-pic.png";
 
 const Hello = () => {
   return (
@@ -31,7 +32,7 @@ const Hello = () => {
           alt="my picture"
           className="w-150"
         /> */}
-        <img src="main/src/assets/images/my-pic.png" alt="MY PIC2" className="w-150"/>
+        <img src={myPic} alt="MY PIC3" className="w-150"/>
       </Container>
     </section>
   );
