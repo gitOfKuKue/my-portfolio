@@ -21,9 +21,9 @@ const Hello = () => {
             Designer & Frontend Developer based in the Vietnam. Welcome to
             portfolio world.
           </p>
-          <button className="bg-iconic text-xl px-8 py-3 hover:bg-black duration-100 rounded-md">
+          <a href="./Services.jsx#portfolio" className="bg-iconic text-xl px-8 py-3 hover:bg-black duration-100 rounded-md">
             View Portfolio
-          </button>
+          </a>
         </div>
 
         {/* Picture Section */}

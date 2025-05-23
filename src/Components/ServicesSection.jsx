@@ -2,6 +2,7 @@ import React from "react";
 import Services from "./Services";
 import { faPenNib, faPencil, faCode } from "@fortawesome/free-solid-svg-icons";
 import Container from "./Container";
+import { Element } from "react-scroll";
 
 const ServicesSection = () => {
   const services = [

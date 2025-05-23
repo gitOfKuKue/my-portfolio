@@ -18,11 +18,7 @@ class Methods {
 
   checkingToday = (month = 0, year = 0) => {
     const date = new Date();
-    if (
-      month == date.getMonth() + 1 &&
-      year == date.getFullYear()
-    )
-      return true;
+    if (month == date.getMonth() + 1 && year == date.getFullYear()) return true;
     else return false;
   };
 }

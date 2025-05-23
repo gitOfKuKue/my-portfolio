@@ -3,7 +3,7 @@ import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebook, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import logo from "../assets/icons/logo.svg";
-
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   const date = new Date();
@@ -35,21 +35,30 @@ const Footer = () => {
       <div className="flex justify-between items-baseline py-5">
         <p>© {date.getFullYear()} @ Ku Kue</p>
         <div className="flex justify-between gap-5">
-          <FontAwesomeIcon
-            icon={faFacebook}
-            className="text-5xl"
-            name="facebook(Ku Kue)"
-          />
-          <FontAwesomeIcon
-            icon={faEnvelope}
-            className="text-5xl"
-            name="email"
-          />
-          <FontAwesomeIcon
-            icon={faWhatsapp}
-            className="text-5xl"
-            name="Whatsapp"
-          />
+          <Link className="bg-background text-xl text-iconic py-2 px-4 rounded-md cursor-pointer">
+            Compose
+          </Link>
+          <a href="#">
+            <FontAwesomeIcon
+              icon={faFacebook}
+              className="text-5xl"
+              name="facebook(Ku Kue)"
+            />
+          </a>
+          <a href="mailto:kukue014@gmail.com">
+            <FontAwesomeIcon
+              icon={faEnvelope}
+              className="text-5xl"
+              name="email"
+            />
+          </a>
+          <a href="#">
+            <FontAwesomeIcon
+              icon={faWhatsapp}
+              className="text-5xl"
+              name="Whatsapp"
+            />
+          </a>
         </div>
       </div>
 

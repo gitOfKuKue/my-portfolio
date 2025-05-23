@@ -7,7 +7,7 @@ import portfolios from "../JavaScripts/portfolio";
 const Portfolio = () => {
 
   return (
-    <section className="">
+    <section className="" id="portfolio">
       <Container className="">
         <div className="flex justify-between items-center mb-8">
           <h1 className="text-iconic text-6xl font-bold">Portfolio</h1>

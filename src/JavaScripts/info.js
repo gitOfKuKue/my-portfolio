@@ -1,15 +1,67 @@
+import {
+  faAddressBook,
+  faAddressCard,
+  faCakeCandles,
+  faChessKing,
+  faEnvelope,
+  faLocation,
+  faLocationArrow,
+  faLocationDot,
+  faPhone,
+  faUser,
+} from "@fortawesome/free-solid-svg-icons";
+
 const date = new Date();
 
 const infos = {
-  name: "Thu Htet Naing @ Ku Kue",
-  birthDay: 14,
-  birthMonth: 11,
-  birthYear: 2003,
-  phone: "+84 898 247 910",
-  email: "kukue014@gmail.com",
-  address: "M18, Duong D7, Phu My Ward, District 7, Ho Chi Minh City",
-  gitAcc: "https://github.com/gitOfKukue",
-  position: "Software Engineer",
+  details: [
+    {
+      id: "d1",
+      type: "name",
+      info: "Thu Htet Naing @ Ku Kue",
+      icon: faChessKing,
+    },
+    {
+      id: "d2",
+      type: "birthday",
+      info: {
+        birthDay: 14,
+        birthMonth: 11,
+        birthYear: 2003,
+      },
+      icon: faCakeCandles,
+    },
+    {
+      id: "d3",
+      type: "phone",
+      info: "+84 898 247 910",
+      icon: faPhone,
+    },
+    {
+      id: "d4",
+      type: "email",
+      info: "kukue014@gmail.com",
+      icon: faEnvelope,
+    },
+    {
+      id: "d5",
+      type: "address",
+      info: "M18, Duong D7, Phu My Ward, District 7, Ho Chi Minh City",
+      icon: faLocation,
+    },
+    {
+      id: "d6",
+      type: "github",
+      info: "https://github.com/gitOfKukue",
+      icon: faAddressBook,
+    },
+    {
+      id  : "d7",
+      type: "position",
+      info: "Software Engineer",
+      icon: faUser,
+    },
+  ],
 
   objective:
     "Motivated and detail-oriented Software Engineer seeking an opportunity to leverage my skills in touching to the main point and concertration of writing to contribute to succeed while continuing professional development.",
@@ -150,16 +202,40 @@ const infos = {
       endYear: 2025,
     },
   ],
-  skills: {
-    creativity: 3.8,
-    teamWork: 4.8,
-    greatResponsibility: 4.5,
-    englishSkill: 3.5,
-    communicationSkill: 4.3,
-    microsoftOffice: 4,
-    computerHardware: 4.5,
-    computerSkill: 5,
-  },
+  skills: [
+    {
+      skillName: "creativity",
+      skillLevel: 3.8,
+    },
+    {
+      skillName: "teamwork",
+      skillLevel: 4.8,
+    },
+    {
+      skillName: "great responsibility",
+      skillLevel: 4.5,
+    },
+    {
+      skillName: "english skill",
+      skillLevel: 3.5,
+    },
+    {
+      skillName: "communication skill",
+      skillLevel: 4.3,
+    },
+    {
+      skillName: "microsoft office",
+      skillLevel: 4,
+    },
+    {
+      skillName: "computer hardware",
+      skillLevel: 4.5,
+    },
+    {
+      skillName: "computer skill",
+      skillLevel: 4.8,
+    },
+  ],
 };
 
 export default infos;

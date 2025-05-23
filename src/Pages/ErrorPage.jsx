@@ -1,7 +1,10 @@
 import React from "react";
 import Navigation from "../Components/Navigation";
+import infos from "../JavaScripts/info";
 
 const ErrorPage = () => {
+  console.log(infos.details[0]["name"]);
+  console.log(infos.details[infos.details.length - 1]["position"]);
   return (
     <>
       <Navigation />

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init({
+                publicKey: "gurD06k38Pg9M4D6v",
+            });
+        })();
+    </script>
+</head>
+
+<body>
+    <input type="text" id="text" value="Hello">
+    <input type="submit" onclick="receiveEmail()">
+    <script>
+        function receiveEmail() {
+            let params = {
+              name: document.getElementById("text").value,
+            };
+            emailjs.send("service_lv1s1vc", "template_zhopvfx", params).then(alert("email sent"));
+        }
+    </script>
+</body>
+
+</html>
