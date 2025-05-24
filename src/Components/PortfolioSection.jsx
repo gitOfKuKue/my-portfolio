@@ -4,7 +4,7 @@ import GraphicDesignCard from "./GraphicDesingCard";
 import ContentWritingCard from "./ContentWritingCard";
 import portfolios from "../JavaScripts/portfolio";
 
-const Portfolio = () => {
+const PortfolioSection = () => {
 
   return (
     <section className="" id="portfolio">
@@ -118,4 +118,4 @@ const Portfolio = () => {
   );
 };
 
-export default Portfolio;
+export default PortfolioSection;

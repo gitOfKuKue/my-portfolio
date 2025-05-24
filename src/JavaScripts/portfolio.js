@@ -1,7 +1,7 @@
 import bookCover1 from "../assets/portfolios/graphic-design/book-cover1.jpg";
 import bookCover2 from "../assets/portfolios/graphic-design/book-cover2.jpg";
 import bookFrontCover3 from "../assets/portfolios/graphic-design/book-front-cover3.jpg";
-import bookBackCover3 from "../assets/portfolios/graphic-design/book-front-cover3.jpg";
+import bookBackCover3 from "../assets/portfolios/graphic-design/book-back-cover3.jpg";
 import contentPic1 from "../assets/images/content-pic1.jpg";
 import contentPic2 from "../assets/images/content-pic2.jpg";
 import contentPic3 from "../assets/images/content-pic3.jpg";
@@ -64,42 +64,42 @@ const portfolios = [
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
   },
   {
-    id: 7,
+    id: 8,
     image: ayeeDropshippingPic,
     title: "Ayee Dropshipping",
     type: "Frontend Web Development",
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
   },
   {
-    id: 8,
+    id: 9,
     image: myPortfolioPic,
     title: "Ayee Dropshipping",
     type: "Frontend Web Development",
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
   },
   {
-    id: 9,
+    id: 10,
     image: infoAssistancePic,
     title: "Info Assistance",
     type: "Frontend Web Development",
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
   },
   {
-    id: 10,
+    id: 11,
     image: ucsyTableTennisPic,
     title: "UCSY Table Tennis Club Website",
     type: "Frontend Web Development",
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
   },
   {
-    id: 11,
+    id: 12,
     image: ucsyStorePic,
     title: "UCSY Store Website",
     type: "Frontend Web Development",
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
   },
   {
-    id: 12,
+    id: 13,
     image: bithumbnnPic,
     title: "Bithumbnn Crypto Trading Web",
     type: "Frontend Web Development",

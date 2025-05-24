@@ -18,15 +18,35 @@
 </head>
 
 <body>
-    <input type="text" id="text" value="Hello">
-    <input type="submit" onclick="receiveEmail()">
     <script>
-        function receiveEmail() {
-            let params = {
-              name: document.getElementById("text").value,
-            };
-            emailjs.send("service_lv1s1vc", "template_zhopvfx", params).then(alert("email sent"));
+        // Constructor function
+        function Person(name, age) {
+            this.name = name;
+            this.age = age;
         }
+
+        // Creating objects using the constructor
+        const person1 = new Person("Alice", 30);
+        const person2 = new Person("Bob", 25);
+
+        console.log(person1.name); // Output: Alice
+        console.log(person2.age);  // Output: 25
+
+        // Class constructor
+        class Dog {
+            constructor(name, breed) {
+                this.name = name;
+                this.breed = breed;
+            }
+
+            bark(name) {
+                console.log(name);
+            }
+        }
+
+        const dog1 = new Dog("Buddy", "Golden Retriever");
+        console.log(dog1.name); // Output: Buddy
+        dog1.bark(dog1.name); // Output: Woof!
     </script>
 </body>
 

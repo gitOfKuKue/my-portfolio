@@ -2,48 +2,52 @@ import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../assets/icons/logo.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import NavMenuBtn from "./NavMenuBtn";
 
-const Navigation = () => {
+const Navigation = ({ current }) => {
+
+  const menuBtns = [
+    { 
+      btnId: 1,
+      menu: "Hello", 
+      link: "/",
+    },
+    {
+      btnId: 2,
+      menu: "About", 
+      link: "#",
+    },
+    {
+      btnId: 3,
+      menu: "Portfilio", 
+      link: "#",
+    },
+    {
+      btnId: 4,
+      menu: "Work", 
+      link: "#",
+    },
+    {
+      btnId: 5,
+      menu: "Blog", 
+    },
+    {
+      btnId: 6,
+      menu: "Contact", 
+      link: "contact-me",
+    }
+  ];
   return (
     <nav className="flex justify-between items-center p-4">
       <Link to={"/"}>
         <img src={logo} alt="Logo Pic" className="w-30" />
       </Link>
-      <div className="h-full text-xl flex justify-between gap-5 text-font py-1">
-        <Link to={"/"}
-          className="hover:-translate-y-1 duration-100 text-2xl hover:text-iconic p-1"
-        >
-          Hello
-        </Link>
-        <Link to="/#about"
-          className="hover:-translate-y-1 duration-100 text-2xl hover:text-iconic p-1"
-        >
-          About
-        </Link>
-        <Link
-          to="#portfolio"
-          className="hover:-translate-y-1 duration-100 text-2xl hover:text-iconic p-1"
-        >
-          Portfolio
-        </Link>
-        <a
-          href="#"
-          className="hover:-translate-y-1 duration-100 text-2xl hover:text-iconic p-1"
-        >
-          Work
-        </a>
-        <a
-          href="#"
-          className="hover:-translate-y-1 duration-100 text-2xl hover:text-iconic p-1"
-        >
-          Blog
-        </a>
-        <Link to={"/contactme"}
-          className="hover:-translate-y-1 duration-100 text-2xl hover:text-iconic p-1"
-        >
-          Contact
-        </Link>
+      <div className="h-full text-xl flex justify-between gap-5 text-font py-1" >
+        {menuBtns.map((menuBtn) => (
+          <NavMenuBtn key={menuBtn.btnId} menuBtn={menuBtn} />
+        ))}
       </div>
+
       <div className="flex justify-between items-center gap-4">
         <Link
           to={"/cv"}

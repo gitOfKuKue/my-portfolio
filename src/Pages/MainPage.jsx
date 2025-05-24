@@ -4,8 +4,8 @@ import Container from "../Components/Container";
 import ServicesSection from "../Components/ServicesSection";
 import AboutMe from "../Components/AboutMe";
 import Hello from "../Components/Hello";
-import Portfolio from "../Components/PortfolioSection";
 import Footer from "../Components/Footer";
+import PortfolioSection from "../Components/PortfolioSection";
 
 const MainPage = () => {
   return (
@@ -24,7 +24,7 @@ const MainPage = () => {
         <ServicesSection />
 
         {/* Portfolio Section */}
-        <Portfolio />
+        <PortfolioSection />
 
         {/* Footer Section */}
         {/* <Footer /> */}

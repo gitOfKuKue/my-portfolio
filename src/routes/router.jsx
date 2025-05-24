@@ -6,6 +6,7 @@ import CurriculumVitae from "../Pages/CurriculumVitae";
 import MainLayout from "../Components/MainLayout";
 import Testing from "../Components/Testing";
 import ContactMe from "../Pages/ContactMe";
+import GraphicDesignPage from "../Pages/GraphicDesignPage";
 
 const router = createBrowserRouter([
     {
@@ -22,8 +23,12 @@ const router = createBrowserRouter([
           element: <CurriculumVitae />,
         },
         {
-          path: "contactme",
+          path: "contact-me",
           element: <ContactMe />,
+        },
+        {
+          path: "graphic-designs/:gdId",
+          element: <GraphicDesignPage />,
         }
       ],
     },

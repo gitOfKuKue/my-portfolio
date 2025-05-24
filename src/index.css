@@ -19,6 +19,11 @@ body ::-webkit-scrollbar, html ::-webkit-scrollbar {
   display: none;
 }
 
+/* For Active btn */
+.active{
+  color: var(--color-iconic);
+}
+
 .hello-section {
   background-image: url("./assets/images/background-shapes.svg");
   background-repeat: no-repeat;
